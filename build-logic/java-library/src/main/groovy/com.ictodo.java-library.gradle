@@ -1,0 +1,4 @@
+plugins {
+    id 'com.ictodo.common'
+    id 'java-library'
+}

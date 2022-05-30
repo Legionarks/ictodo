@@ -1,0 +1,10 @@
+includeBuild 'platform'
+includeBuild 'build-logic'
+
+includeBuild 'util'
+includeBuild 'domain-model'
+
+
+include 'service:task'
+include 'web-ui:app'
+

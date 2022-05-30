@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+includeBuild '../platform'
+
+rootProject.name = 'build-logic'
+
+include 'common'
+include 'java-library'
+include 'quarkus'
+include 'vaadin'

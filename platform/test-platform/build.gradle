@@ -1,0 +1,10 @@
+plugins {
+    id 'java-platform'
+}
+
+group = 'com.ictodo.platform'
+
+javaPlatform.allowDependencies()
+
+dependencies {
+}

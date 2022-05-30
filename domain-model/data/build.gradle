@@ -1,0 +1,10 @@
+plugins {
+    id 'com.ictodo.quarkus-application'
+}
+
+group = "${group}.model"
+version '1.0.0-SNAPSHOT'
+
+dependencies {
+
+}

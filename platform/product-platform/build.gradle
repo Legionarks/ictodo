@@ -1,0 +1,12 @@
+plugins {
+    id 'java-platform'
+}
+
+group = 'com.ictodo.platform'
+
+javaPlatform.allowDependencies()
+
+dependencies {
+    api enforcedPlatform("io.quarkus.platform:quarkus-bom:${quarkusVersion}")
+    api enforcedPlatform("com.vaadin:vaadin-bom:${vaadinVersion}")
+}

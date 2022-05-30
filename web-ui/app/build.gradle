@@ -1,0 +1,10 @@
+plugins {
+    id 'com.ictodo.vaadin-server'
+}
+
+group = "${group}.web-ui"
+version '1.0.0-SNAPSHOT'
+
+dependencies {
+
+}

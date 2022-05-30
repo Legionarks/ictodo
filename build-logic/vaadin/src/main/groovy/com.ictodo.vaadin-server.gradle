@@ -1,0 +1,12 @@
+plugins {
+    id 'com.ictodo.quarkus-application'
+    id 'com.vaadin'
+}
+
+dependencies {
+    implementation 'com.vaadin:vaadin-core'
+    implementation 'com.vaadin:vaadin-core-jandex'
+    implementation 'com.vaadin:vaadin-quarkus'
+    implementation 'io.quarkus:quarkus-websockets'
+    implementation 'io.quarkus:quarkus-undertow'
+}

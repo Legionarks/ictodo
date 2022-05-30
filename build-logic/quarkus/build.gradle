@@ -1,0 +1,11 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+dependencies {
+    implementation platform('com.ictodo.platform:plugin-platform')
+
+    implementation project(':common')
+
+    implementation 'io.quarkus:gradle-application-plugin'
+}
